@@ -1,0 +1,111 @@
+body{
+  background:#d9d9d9;
+  font-family:Arial;
+}
+
+.ventana{
+  width:720px;
+  margin:20px auto;
+  background:#ece9d8;
+  border:2px solid #666;
+}
+
+.top{
+  background:linear-gradient(#2f6fb0,#0d4b85);
+  color:#fff;
+  padding:10px;
+  text-align:center;
+  font-size:26px;
+  font-weight:bold;
+}
+
+.form{
+  padding:10px;
+  position:relative;
+}
+
+.row{
+  display:flex;
+  align-items:center;
+  margin-bottom:8px;
+}
+
+label{
+  width:90px;
+  font-weight:bold;
+}
+
+input,
+select,
+textarea{
+  border:1px solid #666;
+  background:#f6f3cf;
+}
+
+input{
+  width:40px;
+  height:22px;
+  text-align:center;
+}
+
+.sel1{
+  width:360px;
+  height:24px;
+}
+
+.sel2{
+  width:120px;
+  height:24px;
+}
+
+textarea{
+  width:500px;
+  height:55px;
+}
+
+.btns{
+  position:absolute;
+  right:10px;
+  top:10px;
+  display:flex;
+  flex-direction:column;
+  gap:3px;
+}
+
+button{
+  border:1px solid #444;
+  background:linear-gradient(#fff,#9fa5ac);
+  height:28px;
+  width:85px;
+  font-weight:bold;
+}
+
+table{
+  width:95%;
+  margin:10px auto;
+  border-collapse:collapse;
+  background:#f6f3cf;
+}
+
+th{
+  background:#0d4b85;
+  color:#fff;
+  border:1px solid #555;
+  padding:4px;
+}
+
+td{
+  border:1px solid #999;
+  height:25px;
+  padding:3px;
+}
+
+.footer{
+  padding:10px;
+  text-align:right;
+}
+
+.guardar{
+  background:#0d4b85;
+  color:#fff;
+}
